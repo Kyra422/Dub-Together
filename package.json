@@ -1,0 +1,50 @@
+{
+  "name": "dub-together-web",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "node": ">=22.13.0"
+  },
+  "scripts": {
+    "dev": "node tools/run-vinext.mjs dev",
+    "build": "node tools/run-vinext.mjs build",
+    "start": "node tools/run-vinext.mjs start",
+    "test": "npm run build && node --experimental-strip-types tests/microphone-wav-smoke.ts && node --experimental-strip-types --test tests/project-import.test.ts && node --experimental-strip-types --test tests/upload-pack.test.ts && node --test tests/rendered-html.test.mjs",
+    "test:local-api": "node tests/local-api-smoke.mjs",
+    "lint": "eslint . --ignore-pattern dist --ignore-pattern .next --ignore-pattern public/ogv --ignore-pattern public/dub-media-sw.js",
+    "db:generate": "drizzle-kit generate",
+    "packs:index": "node --experimental-strip-types tools/build-pack-library.ts",
+    "predev": "npm run prepare:runtime",
+    "prebuild": "npm run prepare:runtime",
+    "assets:ogv": "node tools/sync-ogv-assets.mjs",
+    "prepare:runtime": "node tools/restore-sources.mjs && npm run assets:ogv && npm run packs:index"
+  },
+  "dependencies": {
+    "@noble/hashes": "^2.0.1",
+    "drizzle-orm": "0.45.2",
+    "next": "16.2.6",
+    "ogv": "^1.9.0",
+    "react": "19.2.6",
+    "react-dom": "19.2.6"
+  },
+  "devDependencies": {
+    "@cloudflare/vite-plugin": "1.37.1",
+    "@cloudflare/workers-types": "^4.20260702.1",
+    "@tailwindcss/postcss": "4.2.1",
+    "@types/node": "22.19.19",
+    "@types/react": "19.2.14",
+    "@types/react-dom": "19.2.3",
+    "@vitejs/plugin-react": "6.0.2",
+    "@vitejs/plugin-rsc": "0.5.26",
+    "drizzle-kit": "0.31.10",
+    "eslint": "9.39.4",
+    "eslint-config-next": "16.2.6",
+    "react-server-dom-webpack": "19.2.6",
+    "tailwindcss": "4.2.1",
+    "typescript": "5.9.3",
+    "vinext": "0.0.50",
+    "vite": "8.0.13",
+    "wrangler": "4.92.0"
+  },
+  "type": "module"
+}
