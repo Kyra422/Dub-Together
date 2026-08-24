@@ -1,0 +1,6 @@
+[data]
+
+caption="“*Kurourushi”"
+image="Narrator.png"
+dub_timestamps=[54.242]
+dub_characters=["Narrator"]

@@ -1,0 +1,6 @@
+[data]
+
+caption="“Domain Expansion”"
+image="Uro.png"
+dub_timestamps=[24.447]
+dub_characters=["Uro"]

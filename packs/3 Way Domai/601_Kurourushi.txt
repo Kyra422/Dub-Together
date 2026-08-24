@@ -1,0 +1,6 @@
+[data]
+
+caption="“I told you, I like the taste of IRON”"
+image="Kurourushi.png"
+dub_timestamps=[45.030]
+dub_characters=["Kurourushi"]

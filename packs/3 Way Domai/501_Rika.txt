@@ -1,0 +1,6 @@
+[data]
+
+caption="“Yuutaa? GIVE HIM BACK!”"
+image="Rika.png"
+dub_timestamps=[28.580]
+dub_characters=["Rika"]

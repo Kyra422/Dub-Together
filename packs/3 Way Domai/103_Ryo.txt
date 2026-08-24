@@ -1,0 +1,6 @@
+[data]
+
+caption="“Because at this point”"
+image="Ryo.png"
+dub_timestamps=[14.104]
+dub_characters=["Ryo"]

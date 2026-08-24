@@ -1,0 +1,6 @@
+[data]
+
+caption="“I ain't gonna drag this out.”"
+image="Ryo.png"
+dub_timestamps=[36.439]
+dub_characters=["Ryo"]

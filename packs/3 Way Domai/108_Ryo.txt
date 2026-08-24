@@ -1,0 +1,6 @@
+[data]
+
+caption="“*Gasp”"
+image="Ryo.png"
+dub_timestamps=[53.263]
+dub_characters=["Ryo"]

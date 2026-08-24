@@ -1,0 +1,6 @@
+[data]
+
+caption="“*So Kurourushi was still alive and well as a cursed spirit.”"
+image="Narrator.png"
+dub_timestamps=[60.614]
+dub_characters=["Narrator"]

@@ -1,0 +1,6 @@
+[data]
+
+caption="“And so the barriers... collapsed”"
+image="Narrator.png"
+dub_timestamps=[73.391]
+dub_characters=["Narrator"]

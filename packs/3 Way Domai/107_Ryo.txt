@@ -1,0 +1,6 @@
+[data]
+
+caption="“Let's settle this, nice and sweet”"
+image="Ryo.png"
+dub_timestamps=[38.648]
+dub_characters=["Ryo"]

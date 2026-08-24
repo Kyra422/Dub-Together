@@ -1,0 +1,6 @@
+[data]
+
+caption="“The complex forces of their domains had been keeping the three sorcerers in check”"
+image="Narrator.png"
+dub_timestamps=[64.755]
+dub_characters=["Narrator"]

@@ -1,0 +1,6 @@
+[data]
+
+caption="“Even if it tries to penetrate the barrier later”"
+image="Uro.png"
+dub_timestamps=[32.000]
+dub_characters=["Uro"]

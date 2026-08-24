@@ -1,0 +1,6 @@
+[data]
+
+caption="“*had completed parthenogenesis before going dormant”"
+image="Narrator.png"
+dub_timestamps=[55.796]
+dub_characters=["Narrator"]

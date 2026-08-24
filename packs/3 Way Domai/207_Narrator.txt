@@ -1,0 +1,6 @@
+[data]
+
+caption="“But this intruder was unexpected”"
+image="Narrator.png"
+dub_timestamps=[69.563]
+dub_characters=["Narrator"]

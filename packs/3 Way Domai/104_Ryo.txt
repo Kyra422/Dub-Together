@@ -1,0 +1,6 @@
+[data]
+
+caption="“WORDS ARE MEANINGLESS!”"
+image="Ryo.png"
+dub_timestamps=[16.921]
+dub_characters=["Ryo"]

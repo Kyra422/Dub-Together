@@ -1,0 +1,6 @@
+[data]
+
+caption="“At that moment, the black devil of the modern age.”"
+image="Narrator.png"
+dub_timestamps=[41.157]
+dub_characters=["Narrator"]

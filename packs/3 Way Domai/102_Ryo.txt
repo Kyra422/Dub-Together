@@ -1,0 +1,6 @@
+[data]
+
+caption="“Quit your whining.”"
+image="Ryo.png"
+dub_timestamps=[11.772]
+dub_characters=["Ryo"]
