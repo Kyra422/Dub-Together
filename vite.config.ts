@@ -8,6 +8,25 @@ const SITE_CREATOR_PLACEHOLDER_DATABASE_ID =
 
 const { d1, r2 } = hostingConfig;
 
+// Production Cloudflare resources are injected by Workers Builds so account-
+// specific IDs do not need to be committed to this public repository.
+const productionDatabaseId = process.env.DUB_TOGETHER_D1_DATABASE_ID?.trim();
+const productionDatabaseName =
+  process.env.DUB_TOGETHER_D1_DATABASE_NAME?.trim() || "dub-together-db";
+const productionR2BucketName = process.env.DUB_TOGETHER_R2_BUCKET_NAME?.trim();
+const isWorkersBuild = process.env.WORKERS_CI === "1";
+
+if (isWorkersBuild && d1 && !productionDatabaseId) {
+  throw new Error(
+    "Missing DUB_TOGETHER_D1_DATABASE_ID in Cloudflare Workers build environment variables.",
+  );
+}
+if (isWorkersBuild && r2 && !productionR2BucketName) {
+  throw new Error(
+    "Missing DUB_TOGETHER_R2_BUCKET_NAME in Cloudflare Workers build environment variables.",
+  );
+}
+
 // macOS Seatbelt blocks FSEvents, so Codex previews need polling for HMR.
 const isCodexSeatbeltSandbox = process.env.CODEX_SANDBOX === "seatbelt";
 
@@ -18,8 +37,11 @@ const localBindingConfig = {
     ? [
         {
           binding: d1,
-          database_name: "site-creator-d1",
-          database_id: SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
+          database_name: productionDatabaseId
+            ? productionDatabaseName
+            : "site-creator-d1",
+          database_id:
+            productionDatabaseId || SITE_CREATOR_PLACEHOLDER_DATABASE_ID,
         },
       ]
     : [],
@@ -27,7 +49,7 @@ const localBindingConfig = {
     ? [
         {
           binding: r2,
-          bucket_name: "site-creator-r2",
+          bucket_name: productionR2BucketName || "site-creator-r2",
         },
       ]
     : [],
