@@ -1,0 +1,6 @@
+[data]
+
+caption="“You could do it yourself, couldn't you Satoru?”"
+image="Geto.png"
+dub_timestamps=[4.706]
+dub_characters=["Geto"]

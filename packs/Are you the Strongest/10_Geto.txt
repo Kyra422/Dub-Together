@@ -1,0 +1,6 @@
+[data]
+
+caption="“This foolish idea would become a lot more grounded in real don't ya think"
+image="Geto.png"
+dub_timestamps=[31.867]
+dub_characters=["Geto"]

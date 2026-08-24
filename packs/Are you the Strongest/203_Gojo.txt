@@ -1,0 +1,6 @@
+[data]
+
+caption="“Hnghhh...”"
+image="Gojo.png"
+dub_timestamps=[35.611]
+dub_characters=["Gojo"]

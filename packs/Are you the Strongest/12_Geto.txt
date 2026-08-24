@@ -1,0 +1,6 @@
+[data]
+
+caption="“Now it's just a matter of doing the best I can to achieve it"
+image="Geto.png"
+dub_timestamps=[38.978]
+dub_characters=["Geto"]

@@ -1,0 +1,6 @@
+[data]
+
+caption="“Yet you would try to convince someone else”"
+image="Geto.png"
+dub_timestamps=[10.162]
+dub_characters=["Geto"]

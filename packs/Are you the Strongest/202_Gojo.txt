@@ -1,0 +1,6 @@
+[data]
+
+caption="“Just what are you trying to say?”"
+image="Gojo.png"
+dub_timestamps=[26.717]
+dub_characters=["Gojo"]

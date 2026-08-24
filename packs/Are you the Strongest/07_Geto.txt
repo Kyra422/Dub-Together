@@ -1,0 +1,6 @@
+[data]
+
+caption="“Do you think you're the strongest because you're Satoru Gojo?"
+image="Geto.png"
+dub_timestamps=[20.504]
+dub_characters=["Geto"]

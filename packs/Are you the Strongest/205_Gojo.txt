@@ -1,0 +1,6 @@
+[data]
+
+caption="“Grunting Noise I guess”"
+image="Gojo.png"
+dub_timestamps=[45.098]
+dub_characters=["Gojo"]

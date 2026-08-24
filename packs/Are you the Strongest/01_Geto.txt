@@ -1,0 +1,6 @@
+[data]
+
+caption="“You're so arrogant”"
+image="Geto.png"
+dub_timestamps=[0.442]
+dub_characters=["Geto"]

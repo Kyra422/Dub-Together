@@ -1,0 +1,6 @@
+[data]
+
+caption="“Which is possible for you”"
+image="Geto.png"
+dub_timestamps=[15.450]
+dub_characters=["Geto"]

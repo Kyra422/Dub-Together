@@ -1,0 +1,6 @@
+[data]
+
+caption="“i've made my decision"
+image="Geto.png"
+dub_timestamps=[37.301]
+dub_characters=["Geto"]

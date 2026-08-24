@@ -1,0 +1,6 @@
+[data]
+
+caption="“That it's impossible to do something”"
+image="Geto.png"
+dub_timestamps=[13.110]
+dub_characters=["Geto"]

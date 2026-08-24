@@ -1,0 +1,6 @@
+[data]
+
+caption="“If I were able to become you for a moment"
+image="Geto.png"
+dub_timestamps=[28.746]
+dub_characters=["Geto"]
